@@ -126,6 +126,9 @@ a {
     padding: 40px 0;
     color: white;
 }
+.cta_title {
+    margin-bottom: 0;
+}
 .cta_btn {
     background-color: white;
     color: #336699;
@@ -150,7 +153,7 @@ a {
 
 /* carousel start*/
 .carousel {
-    width: 650px;
+    max-width: 650px;
     margin: 0 auto;
     padding-bottom: 50px
 }
@@ -249,15 +252,28 @@ a {
     margin: 0;
     padding: 70px 0;
 }
+.why_title {
+    text-align: left;
+}
+.why_img {
+    width: 100%;
+}
 footer {
     background-color: black;
     padding: 40px 0;
 }
+.footer_items {
+    display: flex;
+    align-items: center;
+}
 .footer_text {
     color: white;
+    margin-right: 30px; 
 }
 .footer_link {
     color: white;
+    display: block;
+    margin-right: 30px; 
 }
 .footer_link:hover {
     text-decoration: none;
@@ -271,7 +287,10 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     transition: all 0.5s ease;
-    margin-right: 15px;;
+    margin-right: 15px;
+}
+.social_link:hover {
+    opacity: 0.5;
 }
 .link_fb {
     background-image: url(../img/fb.png);
@@ -2328,6 +2347,7 @@ E. Template Specific Elements
     .ts-block[data-mask-bottom-nw-color], .ts-block[data-mask-bottom-wn-color] {
         padding-bottom: 9rem;
     }
+
 }
 
 @media (min-width: 48rem) and (max-width: 61.9375rem) {
@@ -2373,6 +2393,12 @@ E. Template Specific Elements
 
     .ts-block[data-mask-bottom-nw-color], .ts-block[data-mask-bottom-wn-color] {
         padding-bottom: 10rem;
+    }
+    .footer_link {
+        margin-right: 20px;
+    }
+    .footer_text {
+        margin-right: 20px;
     }
 }
 
@@ -2576,8 +2602,19 @@ E. Template Specific Elements
     h4, .ts-h4 {
         font-size: 1.125rem;
     }
+    .footer_items {
+        display: block;
+    }
+    .footer_text {
+        margin-bottom: 10px;
+    }
+    .footer_link {
+        margin-bottom: 10px;
+    }
+    .socials {
+        margin-top: 10px;;
+    }
 }
-
 @media (min-width: 48rem) {
     h4, .ts-h4 {
         font-size: 1.25rem;
@@ -2595,6 +2632,18 @@ E. Template Specific Elements
 @media (max-width: 61.9375rem) {
     .ts-card__image {
         height: 15.625rem;
+    }
+    .cta_btn {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .about_title {
+        margin-top: 20px;
+    }
+    .why_title {
+        margin-top: 20px;
     }
 }
 
