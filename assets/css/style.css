@@ -92,7 +92,7 @@ h2 {
     text-align: center;
 }
 h3 {
-    font-size: 18px !important;
+    font-size: 18px;
 }
 img {
     box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
@@ -2486,10 +2486,6 @@ E. Template Specific Elements
         font-size: 2rem;
     }
 
-    h3, .ts-h3 {
-        font-size: 1.625rem;
-    }
-
     .ts-column-count-xl-1 {
         column-count: 1;
     }
@@ -2551,6 +2547,18 @@ E. Template Specific Elements
 @media (max-width: 35.9375rem) {
     h1, .ts-h1 {
         margin-bottom: 1.25rem;
+    }
+    header {
+        padding: 100px 0;
+    }
+    p {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .hero_title {
+        font-size: 26px;
     }
 
     [class*="ts-column-count-"] {
