@@ -92,10 +92,9 @@ h2 {
     text-align: center;
 }
 h3 {
-    font-size: 20px !important;
+    font-size: 18px !important;
 }
 img {
-    border-radius: 30px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
 }
 p {
@@ -106,6 +105,9 @@ p {
 a {
 	text-decoration: none;
 	cursor: pointer;
+}
+header {
+    padding: 150px 0;
 }
 .hero_title {
     color: #ffffff;
@@ -122,9 +124,8 @@ a {
 }
 .feature_icon {
     box-shadow: none;
-    border-radius: none;
     max-width: 100%;
-    max-height: 150px;
+    max-height: 100px;
     margin-bottom: 20px;
 }
 .about_title {
@@ -133,6 +134,7 @@ a {
 }
 .about_img {
     width: 100%;
+    border-radius: 30px;
 }
 .cta_registration {
     background-color: #336699;
@@ -271,6 +273,7 @@ a {
 }
 .why_img {
     width: 100%;
+    border-radius: 30px;
 }
 footer {
     background-color: black;
