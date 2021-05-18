@@ -91,6 +91,9 @@ h2 {
     margin-bottom: 30px;
     text-align: center;
 }
+h3 {
+    font-size: 20px !important;
+}
 img {
     border-radius: 30px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
@@ -98,10 +101,18 @@ img {
 p {
 	margin-bottom:0;
 	padding:0;
+    font-size: 18px;
 }
 a {
 	text-decoration: none;
 	cursor: pointer;
+}
+.hero_title {
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 40px;
+    max-width: 820px;
+    margin-bottom: 20px;
 }
 .features {
     text-align: center;
@@ -112,6 +123,9 @@ a {
 .feature_icon {
     box-shadow: none;
     border-radius: none;
+    max-width: 100%;
+    max-height: 150px;
+    margin-bottom: 20px;
 }
 .about_title {
     text-align: left;
@@ -334,7 +348,6 @@ h2, .ts-h2 {
 
 h3, .ts-h3 {
     font-weight: 600;
-    font-size: 1.25rem;
     margin-bottom: 1.5625rem;
 }
 
@@ -923,7 +936,7 @@ B. Helpers
 
 p {
     line-height: 1.6875rem;
-    color: rgba(0, 0, 0, .5);
+    color: #000000;
 }
 
 .ts-font-weight__normal {
