@@ -154,6 +154,7 @@ header {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.5s ease;
+    max-width: fit-content;
 }
 .cta_btn:hover {
     border-color: white;
@@ -2556,6 +2557,9 @@ E. Template Specific Elements
     }
     h3 {
         font-size: 16px;
+    }
+    .feature_icon {
+        max-height: 60px;
     }
     .hero_title {
         font-size: 26px;
