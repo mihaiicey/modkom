@@ -107,14 +107,16 @@ a {
 	cursor: pointer;
 }
 header {
-    padding: 150px 0;
+    padding: 260px 0;
 }
 .hero_title {
     color: #ffffff;
     margin: 0 auto;
     font-size: 40px;
+    font-weight: 600;
     max-width: 820px;
     margin-bottom: 20px;
+    text-shadow: 1px 3px 4px rgb(0 0 0 / 73%);
 }
 .features {
     text-align: center;
@@ -1687,7 +1689,7 @@ body.has-loading-screen.loading-done:after {
 }
 
 #ts-hero .ts-background-image {
-    background-position: top center;
+    background-position: center;
 }
 
 /*-------------------------------------------
